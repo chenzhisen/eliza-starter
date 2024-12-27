@@ -1,7 +1,7 @@
 {
   "name": "Xavier",
   "plugins": [],
-  "clients": [],
+  "clients": ["twitter"],
   "modelProvider": "openrouter",
   "settings": {
     "secrets": {},
