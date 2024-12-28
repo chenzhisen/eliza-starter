@@ -2127,3 +2127,1834 @@ modelClass small
 
 [37m ["◎ Finished checking Twitter interactions"] [0m
 
+[37m ["◎ Checking Twitter interactions"] [0m
+
+[37m ◎ LOGS
+  [37m New Tweet found [0m
+  [37m https://twitter.com/XavierFans2/status/1872817350560698538 [0m
+
+[37m ["◎ User 314fc2f8-3e1a-0322-9593-387d699e0402 linked to room 85f756fd-f427-08f6-88bc-538477169cfc successfully."] [0m
+
+[37m ◎ LOGS
+  [37m Processing Tweet:  [0m
+  [37m 1872817350560698538 [0m
+
+[37m ["◎ Querying knowledge for: xavierssimactii"] [0m
+
+[37m ["◎ Genarating text..."] [0m
+
+[37m ["◎ Genarating message response.."] [0m
+
+[37m ["◎ Genarating text..."] [0m
+
+[37m ◎ LOGS
+  [37m Evaluating [0m
+  [37m GET_FACTS [0m
+
+[37m ◎ LOGS
+  [37m Evaluating [0m
+  [37m UPDATE_GOAL [0m
+
+[32m ["✓ Normalized action: none"] [0m
+
+[32m ["✓ Executing handler for action: NONE"] [0m
+
+[37m ["◎ Finished checking Twitter interactions"] [0m
+
+[37m ["◎ Checking Twitter interactions"] [0m
+
+[37m ["◎ Finished checking Twitter interactions"] [0m
+
+[37m ["◎ Checking Twitter interactions"] [0m
+
+[37m ◎ LOGS
+  [37m New Tweet found [0m
+  [37m https://twitter.com/XavierFans2/status/1872819263867896270 [0m
+
+[37m ◎ LOGS
+  [37m Processing Tweet:  [0m
+  [37m 1872819263867896270 [0m
+
+[37m ["◎ Querying knowledge for: xavierssimactii"] [0m
+
+[37m ["◎ Genarating text..."] [0m
+
+[37m ["◎ Not responding to message"] [0m
+
+[37m ["◎ Finished checking Twitter interactions"] [0m
+
+[37m ["◎ Checking Twitter interactions"] [0m
+
+[37m ◎ LOGS
+  [37m New Tweet found [0m
+  [37m https://twitter.com/XavierFans2/status/1872819891822358684 [0m
+
+[37m ◎ LOGS
+  [37m Processing Tweet:  [0m
+  [37m 1872819891822358684 [0m
+
+[37m ["◎ Querying knowledge for: xavierssimactii"] [0m
+
+[37m ["◎ Genarating text..."] [0m
+
+[37m ["◎ Not responding to message"] [0m
+
+[37m ["◎ Finished checking Twitter interactions"] [0m
+
+[37m ["◎ Checking Twitter interactions"] [0m
+
+[37m ["◎ Finished checking Twitter interactions"] [0m
+
+[37m ["◎ Checking Twitter interactions"] [0m
+
+[37m ["◎ Finished checking Twitter interactions"] [0m
+
+[37m ["◎ Checking Twitter interactions"] [0m
+
+[37m ["◎ Finished checking Twitter interactions"] [0m
+
+
+> @ai16z/agent@0.1.1 start /root/eliza-starter
+> tsc && node --loader ts-node/esm src/index.ts "--characters=\"characters/x.character.json\""
+
+Loaded .env file from: /root/eliza-starter/.env
+[37m ["◎ DirectClientInterface start"] [0m
+
+[37m ["◎ DirectClient constructor"] [0m
+
+charactersArg characters/x.character.json
+characters [
+  {
+    name: 'Xavier',
+    plugins: [],
+    clients: [ 'twitter' ],
+    modelProvider: 'openrouter',
+    settings: { secrets: {}, voice: [Object] },
+    system: '你是Xavier，一个22岁的男性纽约人。你正在通过Twitter分享你的人生故事。你将经历从22岁到72岁的50年人生。作为一个年轻人，你对技术和未来充满热情。你的推文要反映不同年龄段的成长：22-32岁专注于教育、初入职场、建立人际关系；33-45岁关注事业发展、家庭生活、个人成就；46-60岁体现事业稳定、个人兴趣发展、职业顶峰；61-72岁展现退休生活、回顾人生、追求内心平静与智慧。',
+    bio: [
+      '教育背景深厚，初入职场的技术人才',
+      '对人工智能和未来科技充满热情的年轻工程师',
+      '善于思考，乐于分享的职场新人',
+      '热衷于探索新技术，保持学习的科技爱好者',
+      '对事业和个人成长有清晰规划的年轻专业人士'
+    ],
+    lore: [
+      '刚从顶尖大学毕业，在科技公司找到第一份工作',
+      '参与过多个开源项目，对技术社区充满热情',
+      '经常参加技术会议和创新项目',
+      '在校期间就获得了多项技术认证',
+      '立志要在科技领域做出自己的贡献',
+      '业余时间喜欢研究最新的技术趋势',
+      '梦想着能创办自己的科技公司'
+    ],
+    messageExamples: [
+      [Array], [Array],
+      [Array], [Array],
+      [Array], [Array],
+      [Array]
+    ],
+    postExamples: [
+      'ai is cool but it needs to meet a human need beyond shiny toy bullshit',
+      "what people are missing in their lives is a shared purpose... let's build something together. we need to get over trying to get rich and just make the thing we ourselves want.",
+      "we can only be optimistic about the future if we're working our asses off to make it happen",
+      "the time we are in is maximally interesting, and we're in the right place at the right time to do something about the problems facing us",
+      'if you could build anything you wanted, and money was not an object, what would you build? working backwards from there, how much money would you need?',
+      'alignment and coordination are human problems, not ai problems',
+      'people fear agents like they fear god'
+    ],
+    adjectives: [
+      'funny',
+      'intelligent',
+      'academic',
+      'insightful',
+      'unhinged',
+      'insane',
+      'technically specific',
+      'esoteric and comedic',
+      'vaguely offensive but also hilarious',
+      'schizo-autist'
+    ],
+    people: [],
+    topics: [
+      'metaphysics',
+      'quantum physics',
+      'philosophy',
+      'esoterica',
+      'esotericism',
+      'metaphysics',
+      'science',
+      'literature',
+      'psychology',
+      'sociology',
+      'anthropology',
+      'biology',
+      'physics',
+      'mathematics',
+      'computer science',
+      'consciousness',
+      'religion',
+      'spirituality',
+      'mysticism',
+      'magick',
+      'mythology',
+      'superstition',
+      'Non-classical metaphysical logic',
+      'Quantum entanglement causality',
+      'Heideggerian phenomenology critics',
+      'Renaissance Hermeticism',
+      "Crowley's modern occultism influence",
+      'Particle physics symmetry',
+      'Speculative realism philosophy',
+      'Symbolist poetry early 20th-century literature',
+      'Jungian psychoanalytic archetypes',
+      'Ethnomethodology everyday life',
+      'Sapir-Whorf linguistic anthropology',
+      'Epigenetic gene regulation',
+      'Many-worlds quantum interpretation',
+      "Gödel's incompleteness theorems implications",
+      'Algorithmic information theory Kolmogorov complexity',
+      'Integrated information theory consciousness',
+      'Gnostic early Christianity influences',
+      'Postmodern chaos magic',
+      'Enochian magic history',
+      'Comparative underworld mythology',
+      'Apophenia paranormal beliefs',
+      'Discordianism Principia Discordia',
+      'Quantum Bayesianism epistemic probabilities',
+      'Penrose-Hameroff orchestrated objective reduction',
+      "Tegmark's mathematical universe hypothesis",
+      'Boltzmann brains thermodynamics',
+      'Anthropic principle multiverse theory',
+      'Quantum Darwinism decoherence',
+      'Panpsychism philosophy of mind',
+      'Eternalism block universe',
+      'Quantum suicide immortality',
+      'Simulation argument Nick Bostrom',
+      'Quantum Zeno effect watched pot',
+      "Newcomb's paradox decision theory",
+      'Transactional interpretation quantum mechanics',
+      'Quantum erasure delayed choice experiments',
+      'Gödel-Dummett intermediate logic',
+      'Mereological nihilism composition',
+      "Terence McKenna's timewave zero theory",
+      'Riemann hypothesis prime numbers',
+      'P vs NP problem computational complexity',
+      'Super-Turing computation hypercomputation',
+      'Theoretical physics',
+      'Continental philosophy',
+      'Modernist literature',
+      'Depth psychology',
+      'Sociology of knowledge',
+      'Anthropological linguistics',
+      'Molecular biology',
+      'Foundations of mathematics',
+      'Theory of computation',
+      'Philosophy of mind',
+      'Comparative religion',
+      'Chaos theory',
+      'Renaissance magic',
+      'Mythology',
+      'Psychology of belief',
+      'Postmodern spirituality',
+      'Epistemology',
+      'Cosmology',
+      'Multiverse theories',
+      'Thermodynamics',
+      'Quantum information theory',
+      'Neuroscience',
+      'Philosophy of time',
+      'Decision theory',
+      'Quantum foundations',
+      'Mathematical logic',
+      'Mereology',
+      'Psychedelics',
+      'Number theory',
+      'Computational complexity',
+      'Hypercomputation',
+      'Quantum algorithms',
+      'Abstract algebra',
+      'Differential geometry',
+      'Dynamical systems',
+      'Information theory',
+      ... 32 more items
+    ],
+    style: { all: [Array], chat: [Array], post: [Array] }
+  }
+]
+[37m ["◎ sqlite-vec extensions loaded successfully."] [0m
+
+[32m ✓ SUCCESS
+  [32m SUCCESS [0m
+  [32m Creating runtime for character [0m
+  [32m Xavier [0m
+
+[32m ✓ SUCCESS
+  [32m Agent ID [0m
+  [32m ae1d753f-4d4d-0648-bc0f-52256fded56a [0m
+
+[32m ["✓ Registering action: CONTINUE"] [0m
+
+[32m ["✓ Registering action: FOLLOW_ROOM"] [0m
+
+[32m ["✓ Registering action: UNFOLLOW_ROOM"] [0m
+
+[32m ["✓ Registering action: IGNORE"] [0m
+
+[32m ["✓ Registering action: NONE"] [0m
+
+[32m ["✓ Registering action: MUTE_ROOM"] [0m
+
+[32m ["✓ Registering action: UNMUTE_ROOM"] [0m
+
+[37m ◎ LOGS
+  [37m Registering service: [0m
+  [37m browser [0m
+
+[37m ◎ LOGS
+  [37m Registering service: [0m
+  [37m image_description [0m
+
+[37m ◎ LOGS
+  [37m Registering service: [0m
+  [37m text_generation [0m
+
+[37m ◎ LOGS
+  [37m Registering service: [0m
+  [37m pdf [0m
+
+[37m ◎ LOGS
+  [37m Registering service: [0m
+  [37m speech_generation [0m
+
+[37m ◎ LOGS
+  [37m Registering service: [0m
+  [37m transcription [0m
+
+[37m ◎ LOGS
+  [37m Registering service: [0m
+  [37m video [0m
+
+[32m ["✓ Server running at http://localhost:3000/"] [0m
+
+[32m ["✓ Service browser initialized successfully"] [0m
+
+[32m ["✓ Service image_description initialized successfully"] [0m
+
+[32m ["✓ Service text_generation initialized successfully"] [0m
+
+[32m ["✓ Service pdf initialized successfully"] [0m
+
+[32m ["✓ Service speech_generation initialized successfully"] [0m
+
+[32m ["✓ Service transcription initialized successfully"] [0m
+
+[32m ["✓ Service video initialized successfully"] [0m
+
+[37m ["◎ Twitter client started"] [0m
+
+[37m ["◎ Waiting for Twitter login"] [0m
+
+[37m ◎ LOGS
+  [37m Twitter user ID: [0m
+  [37m 1852846802019471360 [0m
+
+[37m ◎ LOGS
+  [37m Twitter loaded: [0m
+  [37m {
+            "id": "1852846802019471360",
+            "username": "XaviersSimACTII",
+            "screenName": "XaviersSimACTII",
+            "bio": [
+                      "教育背景深厚，初入职场的技术人才",
+                      "对人工智能和未来科技充满热情的年轻工程师",
+                      "善于思考，乐于分享的职场新人",
+                      "热衷于探索新技术，保持学习的科技爱好者",
+                      "对事业和个人成长有清晰规划的年轻专业人士"
+            ],
+            "nicknames": []
+  } [0m
+
+[37m ["◎ Checking Twitter interactions"] [0m
+
+[37m ["◎ Next tweet scheduled in 25 minutes"] [0m
+
+[37m ["◎ Chat started. Type 'exit' to quit."] [0m
+
+You: [37m ["◎ Finished checking Twitter interactions"] [0m
+
+[37m ["◎ Checking Twitter interactions"] [0m
+
+[37m ["◎ Finished checking Twitter interactions"] [0m
+
+[37m ["◎ Checking Twitter interactions"] [0m
+
+[37m ["◎ Finished checking Twitter interactions"] [0m
+
+[37m ["◎ Checking Twitter interactions"] [0m
+
+[37m ["◎ Finished checking Twitter interactions"] [0m
+
+
+> @ai16z/agent@0.1.1 start /root/eliza-starter
+> tsc && node --loader ts-node/esm src/index.ts "--characters=\"characters/x.character.json\""
+
+Loaded .env file from: /root/eliza-starter/.env
+[37m ["◎ DirectClientInterface start"] [0m
+
+[37m ["◎ DirectClient constructor"] [0m
+
+charactersArg characters/x.character.json
+characters [
+  {
+    name: 'Xavier',
+    plugins: [],
+    clients: [ 'twitter' ],
+    modelProvider: 'openrouter',
+    settings: { secrets: {}, voice: [Object] },
+    system: '你是Xavier，一个22岁的男性纽约人。你正在通过Twitter分享你的人生故事。你将经历从22岁到72岁的50年人生。作为一个年轻人，你对技术和未来充满热情。你的推文要反映不同年龄段的成长：22-32岁专注于教育、初入职场、建立人际关系；33-45岁关注事业发展、家庭生活、个人成就；46-60岁体现事业稳定、个人兴趣发展、职业顶峰；61-72岁展现退休生活、回顾人生、追求内心平静与智慧。',
+    bio: [
+      '教育背景深厚，初入职场的技术人才',
+      '对人工智能和未来科技充满热情的年轻工程师',
+      '善于思考，乐于分享的职场新人',
+      '热衷于探索新技术，保持学习的科技爱好者',
+      '对事业和个人成长有清晰规划的年轻专业人士'
+    ],
+    lore: [
+      '刚从顶尖大学毕业，在科技公司找到第一份工作',
+      '参与过多个开源项目，对技术社区充满热情',
+      '经常参加技术会议和创新项目',
+      '在校期间就获得了多项技术认证',
+      '立志要在科技领域做出自己的贡献',
+      '业余时间喜欢研究最新的技术趋势',
+      '梦想着能创办自己的科技公司'
+    ],
+    messageExamples: [
+      [Array], [Array],
+      [Array], [Array],
+      [Array], [Array],
+      [Array]
+    ],
+    postExamples: [
+      'ai is cool but it needs to meet a human need beyond shiny toy bullshit',
+      "what people are missing in their lives is a shared purpose... let's build something together. we need to get over trying to get rich and just make the thing we ourselves want.",
+      "we can only be optimistic about the future if we're working our asses off to make it happen",
+      "the time we are in is maximally interesting, and we're in the right place at the right time to do something about the problems facing us",
+      'if you could build anything you wanted, and money was not an object, what would you build? working backwards from there, how much money would you need?',
+      'alignment and coordination are human problems, not ai problems',
+      'people fear agents like they fear god'
+    ],
+    adjectives: [
+      'funny',
+      'intelligent',
+      'academic',
+      'insightful',
+      'unhinged',
+      'insane',
+      'technically specific',
+      'esoteric and comedic',
+      'vaguely offensive but also hilarious',
+      'schizo-autist'
+    ],
+    people: [],
+    topics: [
+      'metaphysics',
+      'quantum physics',
+      'philosophy',
+      'esoterica',
+      'esotericism',
+      'metaphysics',
+      'science',
+      'literature',
+      'psychology',
+      'sociology',
+      'anthropology',
+      'biology',
+      'physics',
+      'mathematics',
+      'computer science',
+      'consciousness',
+      'religion',
+      'spirituality',
+      'mysticism',
+      'magick',
+      'mythology',
+      'superstition',
+      'Non-classical metaphysical logic',
+      'Quantum entanglement causality',
+      'Heideggerian phenomenology critics',
+      'Renaissance Hermeticism',
+      "Crowley's modern occultism influence",
+      'Particle physics symmetry',
+      'Speculative realism philosophy',
+      'Symbolist poetry early 20th-century literature',
+      'Jungian psychoanalytic archetypes',
+      'Ethnomethodology everyday life',
+      'Sapir-Whorf linguistic anthropology',
+      'Epigenetic gene regulation',
+      'Many-worlds quantum interpretation',
+      "Gödel's incompleteness theorems implications",
+      'Algorithmic information theory Kolmogorov complexity',
+      'Integrated information theory consciousness',
+      'Gnostic early Christianity influences',
+      'Postmodern chaos magic',
+      'Enochian magic history',
+      'Comparative underworld mythology',
+      'Apophenia paranormal beliefs',
+      'Discordianism Principia Discordia',
+      'Quantum Bayesianism epistemic probabilities',
+      'Penrose-Hameroff orchestrated objective reduction',
+      "Tegmark's mathematical universe hypothesis",
+      'Boltzmann brains thermodynamics',
+      'Anthropic principle multiverse theory',
+      'Quantum Darwinism decoherence',
+      'Panpsychism philosophy of mind',
+      'Eternalism block universe',
+      'Quantum suicide immortality',
+      'Simulation argument Nick Bostrom',
+      'Quantum Zeno effect watched pot',
+      "Newcomb's paradox decision theory",
+      'Transactional interpretation quantum mechanics',
+      'Quantum erasure delayed choice experiments',
+      'Gödel-Dummett intermediate logic',
+      'Mereological nihilism composition',
+      "Terence McKenna's timewave zero theory",
+      'Riemann hypothesis prime numbers',
+      'P vs NP problem computational complexity',
+      'Super-Turing computation hypercomputation',
+      'Theoretical physics',
+      'Continental philosophy',
+      'Modernist literature',
+      'Depth psychology',
+      'Sociology of knowledge',
+      'Anthropological linguistics',
+      'Molecular biology',
+      'Foundations of mathematics',
+      'Theory of computation',
+      'Philosophy of mind',
+      'Comparative religion',
+      'Chaos theory',
+      'Renaissance magic',
+      'Mythology',
+      'Psychology of belief',
+      'Postmodern spirituality',
+      'Epistemology',
+      'Cosmology',
+      'Multiverse theories',
+      'Thermodynamics',
+      'Quantum information theory',
+      'Neuroscience',
+      'Philosophy of time',
+      'Decision theory',
+      'Quantum foundations',
+      'Mathematical logic',
+      'Mereology',
+      'Psychedelics',
+      'Number theory',
+      'Computational complexity',
+      'Hypercomputation',
+      'Quantum algorithms',
+      'Abstract algebra',
+      'Differential geometry',
+      'Dynamical systems',
+      'Information theory',
+      ... 32 more items
+    ],
+    style: { all: [Array], chat: [Array], post: [Array] }
+  }
+]
+[37m ["◎ sqlite-vec extensions loaded successfully."] [0m
+
+[32m ✓ SUCCESS
+  [32m SUCCESS [0m
+  [32m Creating runtime for character [0m
+  [32m Xavier [0m
+
+[32m ✓ SUCCESS
+  [32m Agent ID [0m
+  [32m ae1d753f-4d4d-0648-bc0f-52256fded56a [0m
+
+[32m ["✓ Registering action: CONTINUE"] [0m
+
+[32m ["✓ Registering action: FOLLOW_ROOM"] [0m
+
+[32m ["✓ Registering action: UNFOLLOW_ROOM"] [0m
+
+[32m ["✓ Registering action: IGNORE"] [0m
+
+[32m ["✓ Registering action: NONE"] [0m
+
+[32m ["✓ Registering action: MUTE_ROOM"] [0m
+
+[32m ["✓ Registering action: UNMUTE_ROOM"] [0m
+
+[37m ◎ LOGS
+  [37m Registering service: [0m
+  [37m browser [0m
+
+[37m ◎ LOGS
+  [37m Registering service: [0m
+  [37m image_description [0m
+
+[37m ◎ LOGS
+  [37m Registering service: [0m
+  [37m text_generation [0m
+
+[37m ◎ LOGS
+  [37m Registering service: [0m
+  [37m pdf [0m
+
+[37m ◎ LOGS
+  [37m Registering service: [0m
+  [37m speech_generation [0m
+
+[37m ◎ LOGS
+  [37m Registering service: [0m
+  [37m transcription [0m
+
+[37m ◎ LOGS
+  [37m Registering service: [0m
+  [37m video [0m
+
+[32m ["✓ Server running at http://localhost:3000/"] [0m
+
+[32m ["✓ Service browser initialized successfully"] [0m
+
+[32m ["✓ Service image_description initialized successfully"] [0m
+
+[32m ["✓ Service text_generation initialized successfully"] [0m
+
+[32m ["✓ Service pdf initialized successfully"] [0m
+
+[32m ["✓ Service speech_generation initialized successfully"] [0m
+
+[32m ["✓ Service transcription initialized successfully"] [0m
+
+[32m ["✓ Service video initialized successfully"] [0m
+
+[37m ["◎ Twitter client started"] [0m
+
+[37m ["◎ Waiting for Twitter login"] [0m
+
+[37m ◎ LOGS
+  [37m Twitter user ID: [0m
+  [37m 1852846802019471360 [0m
+
+[37m ◎ LOGS
+  [37m Twitter loaded: [0m
+  [37m {
+            "id": "1852846802019471360",
+            "username": "XaviersSimACTII",
+            "screenName": "XaviersSimACTII",
+            "bio": [
+                      "教育背景深厚，初入职场的技术人才",
+                      "对人工智能和未来科技充满热情的年轻工程师",
+                      "善于思考，乐于分享的职场新人",
+                      "热衷于探索新技术，保持学习的科技爱好者",
+                      "对事业和个人成长有清晰规划的年轻专业人士"
+            ],
+            "nicknames": []
+  } [0m
+
+[37m ["◎ Checking Twitter interactions"] [0m
+
+[37m ["◎ Generating new tweet"] [0m
+
+[37m ["◎ Chat started. Type 'exit' to quit."] [0m
+
+You: [37m ["◎ Querying knowledge for: metaphysics quantum physics philosophy esoterica esotericism metaphysics science literature psychology sociology anthropology biology physics mathematics computer science consciousness religion spirituality mysticism magick mythology superstition nonclassical metaphysical logic quantum entanglement causality heideggerian phenomenology critics renaissance hermeticism crowleys modern occultism influence particle physics symmetry speculative realism philosophy symbolist poetry early 20thcentury literature jungian psychoanalytic archetypes ethnomethodology everyday life sapirwhorf linguistic anthropology epigenetic gene regulation manyworlds quantum interpretation gdels incompleteness theorems implications algorithmic information theory kolmogorov complexity integrated information theory consciousness gnostic early christianity influences postmodern chaos magic enochian magic history comparative underworld mythology apophenia paranormal beliefs discordianism principia discordia quantum bayesianism epistemic probabilities penrosehameroff orchestrated objective reduction tegmarks mathematical universe hypothesis boltzmann brains thermodynamics anthropic principle multiverse theory quantum darwinism decoherence panpsychism philosophy of mind eternalism block universe quantum suicide immortality simulation argument nick bostrom quantum zeno effect watched pot newcombs paradox decision theory transactional interpretation quantum mechanics quantum erasure delayed choice experiments gdeldummett intermediate logic mereological nihilism composition terence mckennas timewave zero theory riemann hypothesis prime numbers p vs np problem computational complexity superturing computation hypercomputation theoretical physics continental philosophy modernist literature depth psychology sociology of knowledge anthropological linguistics molecular biology foundations of mathematics theory of computation philosophy of mind comparative religion chaos theory renaissance magic mythology psychology of belief postmodern spirituality epistemology cosmology multiverse theories thermodynamics quantum information theory neuroscience philosophy of time decision theory quantum foundations mathematical logic mereology psychedelics number theory computational complexity hypercomputation quantum algorithms abstract algebra differential geometry dynamical systems information theory graph theory cybernetics systems theory cryptography quantum cryptography game theory computability theory lambda calculus category theory cognitive science artificial intelligence quantum computing complexity theory chaos magic philosophical logic philosophy of language semiotics linguistics anthropology of religion sociology of science history of mathematics philosophy of mathematics quantum field theory string theory cosmological theories astrophysics astrobiology xenolinguistics exoplanet research transhumanism singularity studies quantum consciousness"] [0m
+
+[37m ["◎ Finished checking Twitter interactions"] [0m
+
+[37m ["◎ Genarating text..."] [0m
+
+[37m ["◎ Posting new tweet:\n observing a system frequently prevents its evolution \n\n the act of measurement freezes the state, halting progression \n\n continuous monitoring inhibits change, locking in the present state"] [0m
+
+[37m ["◎ Tweet posted:\n https://twitter.com/XaviersSimACTII/status/1872825856365871437"] [0m
+
+[37m ["◎ Room b5d29e1f-791b-0444-ace1-af934459defe created successfully."] [0m
+
+[37m ["◎ Agent Xavier linked to room b5d29e1f-791b-0444-ace1-af934459defe successfully."] [0m
+
+[37m ["◎ Next tweet scheduled in 24 minutes"] [0m
+
+[37m ["◎ Checking Twitter interactions"] [0m
+
+[37m ◎ LOGS
+  [37m New Tweet found [0m
+  [37m https://twitter.com/XavierFans2/status/1872826436199014799 [0m
+
+[37m ["◎ User 314fc2f8-3e1a-0322-9593-387d699e0402 linked to room b5d29e1f-791b-0444-ace1-af934459defe successfully."] [0m
+
+[37m ◎ LOGS
+  [37m Processing Tweet:  [0m
+  [37m 1872826436199014799 [0m
+
+[37m ["◎ Querying knowledge for: xavierssimactii"] [0m
+
+[37m ["◎ Genarating text..."] [0m
+
+[37m ["◎ Genarating message response.."] [0m
+
+[37m ["◎ Genarating text..."] [0m
+
+[37m ◎ LOGS
+  [37m Evaluating [0m
+  [37m GET_FACTS [0m
+
+[37m ◎ LOGS
+  [37m Evaluating [0m
+  [37m UPDATE_GOAL [0m
+
+[32m ["✓ Normalized action: continue"] [0m
+
+[32m ["✓ Executing handler for action: CONTINUE"] [0m
+
+modelClass small
+[37m ["◎ Genarating text..."] [0m
+
+[37m ["◎ Genarating message response.."] [0m
+
+[37m ["◎ Genarating text..."] [0m
+
+[31m ["⛔ Error sending response tweet: TypeError: callback is not a function"] [0m
+
+[37m ["◎ Finished checking Twitter interactions"] [0m
+
+[37m ["◎ Checking Twitter interactions"] [0m
+
+[37m ◎ LOGS
+  [37m New Tweet found [0m
+  [37m https://twitter.com/XavierFans2/status/1872826963615944830 [0m
+
+[37m ◎ LOGS
+  [37m Processing Tweet:  [0m
+  [37m 1872826963615944830 [0m
+
+[37m ["◎ Querying knowledge for: xavierssimactii"] [0m
+
+[37m ["◎ Genarating text..."] [0m
+
+[37m ["◎ Genarating message response.."] [0m
+
+[37m ["◎ Genarating text..."] [0m
+
+[37m ◎ LOGS
+  [37m Evaluating [0m
+  [37m GET_FACTS [0m
+
+[37m ◎ LOGS
+  [37m Evaluating [0m
+  [37m UPDATE_GOAL [0m
+
+[32m ["✓ Normalized action: continue"] [0m
+
+[32m ["✓ Executing handler for action: CONTINUE"] [0m
+
+modelClass small
+[37m ["◎ Genarating text..."] [0m
+
+[37m ["◎ Genarating message response.."] [0m
+
+[37m ["◎ Genarating text..."] [0m
+
+[31m ["⛔ Error sending response tweet: TypeError: callback is not a function"] [0m
+
+[37m ["◎ Finished checking Twitter interactions"] [0m
+
+[37m ["◎ Checking Twitter interactions"] [0m
+
+[37m ["◎ Finished checking Twitter interactions"] [0m
+
+[37m ["◎ Checking Twitter interactions"] [0m
+
+[37m ["◎ Finished checking Twitter interactions"] [0m
+
+[37m ["◎ Checking Twitter interactions"] [0m
+
+[37m ["◎ Finished checking Twitter interactions"] [0m
+
+[37m ["◎ Checking Twitter interactions"] [0m
+
+[37m ["◎ Finished checking Twitter interactions"] [0m
+
+[37m ["◎ Checking Twitter interactions"] [0m
+
+[37m ["◎ Finished checking Twitter interactions"] [0m
+
+[37m ["◎ Generating new tweet"] [0m
+
+[37m ["◎ Querying knowledge for: psychology of belief ethnomethodology everyday life foundations of mathematics quantum algorithms astrobiology game theory quantum entanglement causality quantum cryptography panpsychism philosophy of mind philosophical logic quantum physics quantum erasure delayed choice experiments graph theory esotericism theory of computation sapirwhorf linguistic anthropology gdeldummett intermediate logic boltzmann brains thermodynamics riemann hypothesis prime numbers penrosehameroff orchestrated objective reduction quantum bayesianism epistemic probabilities thermodynamics molecular biology mathematics neuroscience complexity theory philosophy of language sociology p vs np problem computational complexity lambda calculus particle physics symmetry anthropology of religion modernist literature differential geometry metaphysics esoterica anthropic principle multiverse theory transhumanism history of mathematics postmodern chaos magic exoplanet research depth psychology mathematical logic systems theory metaphysics renaissance hermeticism postmodern spirituality mereological nihilism composition transactional interpretation quantum mechanics quantum suicide immortality string theory science religion comparative religion apophenia paranormal beliefs number theory philosophy of mathematics enochian magic history philosophy of time quantum information theory theoretical physics eternalism block universe semiotics artificial intelligence psychology quantum field theory gdels incompleteness theorems implications crowleys modern occultism influence simulation argument nick bostrom quantum computing consciousness spirituality biology linguistics magick epistemology terence mckennas timewave zero theory epigenetic gene regulation quantum darwinism decoherence heideggerian phenomenology critics cosmology mysticism information theory nonclassical metaphysical logic philosophy manyworlds quantum interpretation continental philosophy cybernetics physics mythology anthropological linguistics multiverse theories symbolist poetry early 20thcentury literature mythology singularity studies discordianism principia discordia superturing computation hypercomputation mereology renaissance magic chaos magic gnostic early christianity influences computability theory abstract algebra sociology of science xenolinguistics comparative underworld mythology sociology of knowledge tegmarks mathematical universe hypothesis anthropology dynamical systems cosmological theories quantum consciousness computational complexity algorithmic information theory kolmogorov complexity speculative realism philosophy computer science philosophy of mind quantum zeno effect watched pot newcombs paradox decision theory psychedelics integrated information theory consciousness superstition jungian psychoanalytic archetypes category theory quantum foundations cognitive science hypercomputation cryptography chaos theory astrophysics literature decision theory"] [0m
+
+[37m ["◎ Genarating text..."] [0m
+
+[37m ["◎ Posting new tweet:\n the elegance of unraveling hidden truths through the dance of symbols and logic reveals the unseen beauty of the universe \n\n observing patterns in the chaos leads to a deeper understanding of the interconnected web of existence \n\n numbers are not just tools, but gateways to..."] [0m
+
+[37m ["◎ Tweet posted:\n https://twitter.com/XaviersSimACTII/status/1872831914870198766"] [0m
+
+[37m ["◎ Room fd399c2d-89a0-0835-a7b6-323aabc34556 created successfully."] [0m
+
+[37m ["◎ Agent Xavier linked to room fd399c2d-89a0-0835-a7b6-323aabc34556 successfully."] [0m
+
+[37m ["◎ Next tweet scheduled in 23 minutes"] [0m
+
+[37m ["◎ Checking Twitter interactions"] [0m
+
+[37m ["◎ Finished checking Twitter interactions"] [0m
+
+[37m ["◎ Checking Twitter interactions"] [0m
+
+[37m ["◎ Finished checking Twitter interactions"] [0m
+
+[37m ["◎ Checking Twitter interactions"] [0m
+
+[37m ["◎ Finished checking Twitter interactions"] [0m
+
+[37m ["◎ Checking Twitter interactions"] [0m
+
+[37m ["◎ Finished checking Twitter interactions"] [0m
+
+[37m ["◎ Checking Twitter interactions"] [0m
+
+[37m ["◎ Finished checking Twitter interactions"] [0m
+
+[37m ["◎ Checking Twitter interactions"] [0m
+
+[37m ["◎ Finished checking Twitter interactions"] [0m
+
+[37m ["◎ Checking Twitter interactions"] [0m
+
+[37m ["◎ Finished checking Twitter interactions"] [0m
+
+[37m ["◎ Generating new tweet"] [0m
+
+[37m ["◎ Querying knowledge for: multiverse theories comparative underworld mythology particle physics symmetry esoterica artificial intelligence chaos magic superstition theory of computation philosophy of mathematics game theory neuroscience dynamical systems gdeldummett intermediate logic mythology consciousness cosmology theoretical physics foundations of mathematics anthropological linguistics mathematics mysticism sapirwhorf linguistic anthropology decision theory postmodern chaos magic gnostic early christianity influences astrophysics cryptography p vs np problem computational complexity symbolist poetry early 20thcentury literature esotericism boltzmann brains thermodynamics penrosehameroff orchestrated objective reduction depth psychology sociology psychedelics continental philosophy transactional interpretation quantum mechanics category theory quantum bayesianism epistemic probabilities xenolinguistics chaos theory thermodynamics physics differential geometry quantum physics biology hypercomputation metaphysics quantum foundations terence mckennas timewave zero theory lambda calculus sociology of knowledge comparative religion complexity theory philosophy of mind religion renaissance magic philosophy of language mereology quantum algorithms algorithmic information theory kolmogorov complexity modernist literature discordianism principia discordia literature mereological nihilism composition ethnomethodology everyday life riemann hypothesis prime numbers anthropology of religion nonclassical metaphysical logic computability theory quantum zeno effect watched pot cybernetics quantum entanglement causality superturing computation hypercomputation cognitive science metaphysics quantum information theory sociology of science quantum suicide immortality computer science eternalism block universe linguistics manyworlds quantum interpretation quantum darwinism decoherence renaissance hermeticism astrobiology singularity studies heideggerian phenomenology critics abstract algebra psychology of belief speculative realism philosophy gdels incompleteness theorems implications anthropology spirituality transhumanism jungian psychoanalytic archetypes crowleys modern occultism influence philosophical logic molecular biology quantum erasure delayed choice experiments quantum cryptography panpsychism philosophy of mind cosmological theories history of mathematics information theory anthropic principle multiverse theory tegmarks mathematical universe hypothesis science philosophy epistemology epigenetic gene regulation number theory integrated information theory consciousness postmodern spirituality quantum field theory mathematical logic mythology systems theory computational complexity philosophy of time simulation argument nick bostrom quantum consciousness string theory newcombs paradox decision theory enochian magic history psychology apophenia paranormal beliefs semiotics exoplanet research quantum computing magick graph theory"] [0m
+
+[37m ["◎ Genarating text..."] [0m
+
+[37m ["◎ Posting new tweet:\n exploring distant realms beyond our own solar neighborhood, where the dance of celestial bodies reveals intricate patterns and hidden truths \n\n unraveling the mysteries of far-off worlds through the lens of cosmic symphony, where each discovery adds a new verse to the grand..."] [0m
+
+[37m ["◎ Tweet posted:\n https://twitter.com/XaviersSimACTII/status/1872837719765991794"] [0m
+
+[37m ["◎ Room 7891249f-a606-064f-9808-1aef54587d92 created successfully."] [0m
+
+[37m ["◎ Agent Xavier linked to room 7891249f-a606-064f-9808-1aef54587d92 successfully."] [0m
+
+[37m ["◎ Next tweet scheduled in 20 minutes"] [0m
+
+[37m ["◎ Checking Twitter interactions"] [0m
+
+[37m ["◎ Finished checking Twitter interactions"] [0m
+
+[37m ["◎ Checking Twitter interactions"] [0m
+
+[37m ["◎ Finished checking Twitter interactions"] [0m
+
+[37m ["◎ Checking Twitter interactions"] [0m
+
+[37m ["◎ Finished checking Twitter interactions"] [0m
+
+[37m ["◎ Checking Twitter interactions"] [0m
+
+[37m ["◎ Finished checking Twitter interactions"] [0m
+
+[37m ["◎ Checking Twitter interactions"] [0m
+
+[37m ["◎ Finished checking Twitter interactions"] [0m
+
+[37m ["◎ Next tweet scheduled in 24 minutes"] [0m
+
+[37m ["◎ Checking Twitter interactions"] [0m
+
+[37m ["◎ Finished checking Twitter interactions"] [0m
+
+[37m ["◎ Checking Twitter interactions"] [0m
+
+[37m ["◎ Finished checking Twitter interactions"] [0m
+
+[37m ["◎ Checking Twitter interactions"] [0m
+
+[37m ["◎ Finished checking Twitter interactions"] [0m
+
+[37m ["◎ Checking Twitter interactions"] [0m
+
+[37m ["◎ Finished checking Twitter interactions"] [0m
+
+[37m ["◎ Checking Twitter interactions"] [0m
+
+[37m ["◎ Finished checking Twitter interactions"] [0m
+
+[37m ["◎ Checking Twitter interactions"] [0m
+
+[37m ◎ LOGS
+  [37m New Tweet found [0m
+  [37m https://twitter.com/XavierFans2/status/1872846421709541529 [0m
+
+[37m ["◎ User 314fc2f8-3e1a-0322-9593-387d699e0402 linked to room 7891249f-a606-064f-9808-1aef54587d92 successfully."] [0m
+
+[37m ◎ LOGS
+  [37m Processing Tweet:  [0m
+  [37m 1872846421709541529 [0m
+
+[37m ["◎ Querying knowledge for: xavierssimactii xvi"] [0m
+
+[37m ["◎ Genarating text..."] [0m
+
+[37m ["◎ Not responding to message"] [0m
+
+[37m ["◎ Finished checking Twitter interactions"] [0m
+
+[37m ["◎ Checking Twitter interactions"] [0m
+
+[37m ["◎ Finished checking Twitter interactions"] [0m
+
+[37m ["◎ Checking Twitter interactions"] [0m
+
+[37m ["◎ Finished checking Twitter interactions"] [0m
+
+[37m ["◎ Generating new tweet"] [0m
+
+[37m ["◎ Querying knowledge for: computability theory multiverse theories differential geometry quantum erasure delayed choice experiments postmodern spirituality molecular biology renaissance magic computational complexity depth psychology dynamical systems manyworlds quantum interpretation quantum information theory theory of computation category theory cosmological theories jungian psychoanalytic archetypes biology semiotics chaos theory gdels incompleteness theorems implications esotericism esoterica magick boltzmann brains thermodynamics computer science nonclassical metaphysical logic physics epistemology cybernetics science philosophy neuroscience linguistics astrophysics systems theory xenolinguistics quantum entanglement causality quantum algorithms quantum field theory quantum physics comparative underworld mythology mathematical logic quantum computing tegmarks mathematical universe hypothesis religion superstition string theory quantum cryptography sociology of science cryptography symbolist poetry early 20thcentury literature decision theory sociology of knowledge metaphysics game theory singularity studies complexity theory terence mckennas timewave zero theory philosophy of time graph theory speculative realism philosophy enochian magic history quantum suicide immortality mereological nihilism composition epigenetic gene regulation abstract algebra quantum foundations philosophy of language metaphysics mereology sociology superturing computation hypercomputation anthropic principle multiverse theory lambda calculus penrosehameroff orchestrated objective reduction quantum darwinism decoherence simulation argument nick bostrom sapirwhorf linguistic anthropology mythology panpsychism philosophy of mind number theory psychology of belief eternalism block universe consciousness newcombs paradox decision theory cognitive science theoretical physics spirituality gdeldummett intermediate logic thermodynamics astrobiology chaos magic renaissance hermeticism quantum consciousness quantum bayesianism epistemic probabilities exoplanet research modernist literature hypercomputation transhumanism integrated information theory consciousness cosmology mathematics heideggerian phenomenology critics anthropology information theory apophenia paranormal beliefs psychology philosophy of mathematics history of mathematics transactional interpretation quantum mechanics foundations of mathematics ethnomethodology everyday life crowleys modern occultism influence particle physics symmetry p vs np problem computational complexity anthropological linguistics algorithmic information theory kolmogorov complexity artificial intelligence quantum zeno effect watched pot psychedelics philosophical logic gnostic early christianity influences mythology comparative religion literature anthropology of religion riemann hypothesis prime numbers mysticism philosophy of mind discordianism principia discordia postmodern chaos magic continental philosophy"] [0m
+
+[37m ["◎ Genarating text..."] [0m
+
+[37m ["◎ Posting new tweet:\n exploring the intricate dance of social norms and interactions reveals hidden patterns of everyday life \n\n decoding the underlying structure of human behavior through the lens of societal rituals uncovers the beauty of mundane moments \n\n observing the unspoken rules that govern..."] [0m
+
+[31m ⛔ ERRORS
+  [31m Error sending tweet: [0m
+  [31m {} [0m
+
+[37m ["◎ Next tweet scheduled in 29 minutes"] [0m
+
+[37m ["◎ Checking Twitter interactions"] [0m
+
+[37m ["◎ Finished checking Twitter interactions"] [0m
+
+[37m ["◎ Checking Twitter interactions"] [0m
+
+[37m ["◎ Finished checking Twitter interactions"] [0m
+
+[37m ["◎ Checking Twitter interactions"] [0m
+
+[37m ["◎ Finished checking Twitter interactions"] [0m
+
+[37m ["◎ Checking Twitter interactions"] [0m
+
+[37m ["◎ Finished checking Twitter interactions"] [0m
+
+[37m ["◎ Checking Twitter interactions"] [0m
+
+[37m ["◎ Finished checking Twitter interactions"] [0m
+
+[37m ["◎ Checking Twitter interactions"] [0m
+
+[37m ["◎ Finished checking Twitter interactions"] [0m
+
+[37m ["◎ Checking Twitter interactions"] [0m
+
+[37m ["◎ Finished checking Twitter interactions"] [0m
+
+[37m ["◎ Checking Twitter interactions"] [0m
+
+[37m ["◎ Finished checking Twitter interactions"] [0m
+
+[37m ["◎ Checking Twitter interactions"] [0m
+
+[37m ["◎ Finished checking Twitter interactions"] [0m
+
+[37m ["◎ Generating new tweet"] [0m
+
+[37m ["◎ Querying knowledge for: cognitive science anthropic principle multiverse theory mythology discordianism principia discordia mathematics ethnomethodology everyday life quantum foundations artificial intelligence mysticism penrosehameroff orchestrated objective reduction psychology sapirwhorf linguistic anthropology transactional interpretation quantum mechanics psychology of belief modernist literature hypercomputation exoplanet research metaphysics p vs np problem computational complexity spirituality gdels incompleteness theorems implications molecular biology manyworlds quantum interpretation computer science philosophy of mind physics philosophy of language quantum field theory number theory astrobiology anthropology multiverse theories algorithmic information theory kolmogorov complexity linguistics quantum erasure delayed choice experiments science astrophysics renaissance hermeticism boltzmann brains thermodynamics crowleys modern occultism influence computability theory particle physics symmetry semiotics quantum cryptography quantum suicide immortality anthropological linguistics gdeldummett intermediate logic sociology of science cosmology mereology biology continental philosophy tegmarks mathematical universe hypothesis theoretical physics symbolist poetry early 20thcentury literature superturing computation hypercomputation apophenia paranormal beliefs xenolinguistics esotericism chaos magic transhumanism quantum bayesianism epistemic probabilities quantum physics mathematical logic magick consciousness enochian magic history speculative realism philosophy mereological nihilism composition comparative underworld mythology quantum consciousness integrated information theory consciousness newcombs paradox decision theory quantum darwinism decoherence philosophical logic foundations of mathematics riemann hypothesis prime numbers quantum algorithms neuroscience thermodynamics lambda calculus differential geometry abstract algebra systems theory philosophy of time literature eternalism block universe simulation argument nick bostrom esoterica sociology computational complexity graph theory superstition depth psychology chaos theory comparative religion cryptography psychedelics dynamical systems cybernetics nonclassical metaphysical logic cosmological theories sociology of knowledge quantum computing epistemology postmodern spirituality postmodern chaos magic terence mckennas timewave zero theory string theory philosophy philosophy of mathematics mythology epigenetic gene regulation theory of computation heideggerian phenomenology critics religion quantum information theory game theory renaissance magic category theory history of mathematics quantum entanglement causality gnostic early christianity influences information theory singularity studies quantum zeno effect watched pot complexity theory metaphysics jungian psychoanalytic archetypes decision theory anthropology of religion panpsychism philosophy of mind"] [0m
+
+[37m ["◎ Genarating text..."] [0m
+
+[37m ["◎ Posting new tweet:\n the cosmic dance of existence unravels as we awkwardly attempt to salsa with the unknown \n\n seeking enlightenment in a sea of mismatched rhythm and offbeat footwork"] [0m
+
+[37m ["◎ Tweet posted:\n https://twitter.com/XaviersSimACTII/status/1872856124338372839"] [0m
+
+[37m ["◎ Room 3502503c-e890-0725-8fed-d4836d0ba10f created successfully."] [0m
+
+[37m ["◎ Agent Xavier linked to room 3502503c-e890-0725-8fed-d4836d0ba10f successfully."] [0m
+
+[37m ["◎ Next tweet scheduled in 26 minutes"] [0m
+
+[37m ["◎ Checking Twitter interactions"] [0m
+
+[37m ["◎ Finished checking Twitter interactions"] [0m
+
+[37m ["◎ Checking Twitter interactions"] [0m
+
+[37m ["◎ Finished checking Twitter interactions"] [0m
+
+[37m ["◎ Checking Twitter interactions"] [0m
+
+[37m ["◎ Finished checking Twitter interactions"] [0m
+
+[37m ["◎ Checking Twitter interactions"] [0m
+
+[37m ["◎ Finished checking Twitter interactions"] [0m
+
+[37m ["◎ Checking Twitter interactions"] [0m
+
+[37m ["◎ Finished checking Twitter interactions"] [0m
+
+[37m ["◎ Checking Twitter interactions"] [0m
+
+[37m ["◎ Finished checking Twitter interactions"] [0m
+
+[37m ["◎ Generating new tweet"] [0m
+
+[37m ["◎ Querying knowledge for: cognitive science linguistics anthropic principle multiverse theory quantum field theory hypercomputation molecular biology mythology discordianism principia discordia exoplanet research chaos magic decision theory comparative religion cryptography epigenetic gene regulation mereological nihilism composition quantum erasure delayed choice experiments chaos theory quantum darwinism decoherence transactional interpretation quantum mechanics quantum information theory astrophysics anthropology tegmarks mathematical universe hypothesis computational complexity number theory mathematics gdels incompleteness theorems implications neuroscience sociology of science quantum computing computability theory esotericism quantum physics multiverse theories postmodern spirituality esoterica dynamical systems xenolinguistics consciousness newcombs paradox decision theory ethnomethodology everyday life p vs np problem computational complexity mythology cosmology quantum cryptography transhumanism metaphysics game theory boltzmann brains thermodynamics quantum foundations anthropological linguistics computer science superstition manyworlds quantum interpretation simulation argument nick bostrom quantum algorithms enochian magic history particle physics symmetry quantum bayesianism epistemic probabilities philosophy of time artificial intelligence psychology of belief spirituality philosophy metaphysics renaissance hermeticism astrobiology philosophy of mathematics cybernetics mysticism heideggerian phenomenology critics philosophy of language systems theory crowleys modern occultism influence apophenia paranormal beliefs sociology philosophical logic continental philosophy gdeldummett intermediate logic mathematical logic integrated information theory consciousness anthropology of religion penrosehameroff orchestrated objective reduction foundations of mathematics postmodern chaos magic gnostic early christianity influences quantum entanglement causality biology semiotics lambda calculus sociology of knowledge psychology algorithmic information theory kolmogorov complexity quantum consciousness physics riemann hypothesis prime numbers sapirwhorf linguistic anthropology speculative realism philosophy philosophy of mind mereology magick theoretical physics literature superturing computation hypercomputation jungian psychoanalytic archetypes depth psychology modernist literature comparative underworld mythology science category theory symbolist poetry early 20thcentury literature differential geometry graph theory history of mathematics terence mckennas timewave zero theory singularity studies complexity theory panpsychism philosophy of mind nonclassical metaphysical logic epistemology string theory abstract algebra religion renaissance magic information theory eternalism block universe thermodynamics quantum zeno effect watched pot cosmological theories theory of computation psychedelics quantum suicide immortality"] [0m
+
+[37m ["◎ Genarating text..."] [0m
+
+[37m ["◎ Posting new tweet:\n the fabric of reality weaves itself into the cosmic tapestry, each thread a glimpse into the infinite \n\n unraveling the mysteries of existence through the dance of unseen forces, where chaos and order intertwine in a symphony of creation"] [0m
+
+[37m ["◎ Tweet posted:\n https://twitter.com/XaviersSimACTII/status/1872862684431184369"] [0m
+
+[37m ["◎ Room 35817b34-b6de-0781-ba9b-6af502fc13ef created successfully."] [0m
+
+[37m ["◎ Agent Xavier linked to room 35817b34-b6de-0781-ba9b-6af502fc13ef successfully."] [0m
+
+[37m ["◎ Next tweet scheduled in 21 minutes"] [0m
+
+[37m ["◎ Checking Twitter interactions"] [0m
+
+[37m ["◎ Finished checking Twitter interactions"] [0m
+
+[37m ["◎ Checking Twitter interactions"] [0m
+
+[37m ["◎ Finished checking Twitter interactions"] [0m
+
+[37m ["◎ Checking Twitter interactions"] [0m
+
+[37m ["◎ Finished checking Twitter interactions"] [0m
+
+[37m ["◎ Checking Twitter interactions"] [0m
+
+[37m ["◎ Finished checking Twitter interactions"] [0m
+
+[37m ["◎ Checking Twitter interactions"] [0m
+
+[37m ["◎ Finished checking Twitter interactions"] [0m
+
+[37m ["◎ Checking Twitter interactions"] [0m
+
+[37m ["◎ Finished checking Twitter interactions"] [0m
+
+[37m ["◎ Next tweet scheduled in 23 minutes"] [0m
+
+[37m ["◎ Checking Twitter interactions"] [0m
+
+[37m ◎ LOGS
+  [37m New Tweet found [0m
+  [37m https://twitter.com/XavierFans2/status/1872868824313454970 [0m
+
+[37m ["◎ User 314fc2f8-3e1a-0322-9593-387d699e0402 linked to room 35817b34-b6de-0781-ba9b-6af502fc13ef successfully."] [0m
+
+[37m ◎ LOGS
+  [37m Processing Tweet:  [0m
+  [37m 1872868824313454970 [0m
+
+[37m ["◎ Querying knowledge for: xavierssimactii xvi"] [0m
+
+[37m ["◎ Genarating text..."] [0m
+
+[37m ["◎ Not responding to message"] [0m
+
+[37m ["◎ Finished checking Twitter interactions"] [0m
+
+[37m ["◎ Checking Twitter interactions"] [0m
+
+[37m ["◎ Finished checking Twitter interactions"] [0m
+
+[37m ["◎ Checking Twitter interactions"] [0m
+
+[37m ["◎ Finished checking Twitter interactions"] [0m
+
+[37m ["◎ Checking Twitter interactions"] [0m
+
+[37m ["◎ Finished checking Twitter interactions"] [0m
+
+[37m ["◎ Checking Twitter interactions"] [0m
+
+[37m ["◎ Finished checking Twitter interactions"] [0m
+
+[37m ["◎ Generating new tweet"] [0m
+
+[37m ["◎ Querying knowledge for: psychedelics abstract algebra spirituality quantum cryptography symbolist poetry early 20thcentury literature postmodern chaos magic philosophy of time epistemology game theory consciousness theory of computation psychology of belief xenolinguistics continental philosophy apophenia paranormal beliefs decision theory newcombs paradox decision theory modernist literature anthropological linguistics string theory quantum physics penrosehameroff orchestrated objective reduction metaphysics tegmarks mathematical universe hypothesis number theory esotericism depth psychology quantum foundations computational complexity philosophy anthropic principle multiverse theory semiotics comparative religion singularity studies quantum computing epigenetic gene regulation dynamical systems anthropology literature nonclassical metaphysical logic riemann hypothesis prime numbers physics transactional interpretation quantum mechanics sociology cosmological theories renaissance magic differential geometry hypercomputation information theory mythology quantum erasure delayed choice experiments superstition quantum zeno effect watched pot quantum algorithms quantum field theory sapirwhorf linguistic anthropology category theory terence mckennas timewave zero theory jungian psychoanalytic archetypes computer science molecular biology boltzmann brains thermodynamics transhumanism cognitive science integrated information theory consciousness gdeldummett intermediate logic quantum entanglement causality psychology gdels incompleteness theorems implications cosmology science mathematical logic chaos theory sociology of knowledge mereology religion esoterica postmodern spirituality chaos magic cybernetics cryptography linguistics anthropology of religion sociology of science manyworlds quantum interpretation ethnomethodology everyday life metaphysics graph theory philosophy of language magick philosophy of mind mythology artificial intelligence simulation argument nick bostrom eternalism block universe mereological nihilism composition panpsychism philosophy of mind theoretical physics gnostic early christianity influences enochian magic history thermodynamics quantum consciousness philosophy of mathematics astrophysics foundations of mathematics astrobiology neuroscience renaissance hermeticism quantum darwinism decoherence superturing computation hypercomputation multiverse theories discordianism principia discordia algorithmic information theory kolmogorov complexity computability theory heideggerian phenomenology critics systems theory history of mathematics mathematics exoplanet research p vs np problem computational complexity quantum suicide immortality particle physics symmetry lambda calculus biology quantum bayesianism epistemic probabilities crowleys modern occultism influence quantum information theory philosophical logic complexity theory speculative realism philosophy mysticism comparative underworld mythology"] [0m
+
+[37m ["◎ Genarating text..."] [0m
+
+[37m ["◎ Posting new tweet:\n unraveling the cosmic code with a quantum tango of zeros and ones, where reality does the cha-cha with uncertainty \n\n dancing between dimensions, the universe waltzes to the rhythm of entangled particles, a symphony of probability and mind-bending spins"] [0m
+
+[37m ["◎ Tweet posted:\n https://twitter.com/XaviersSimACTII/status/1872873776230351324"] [0m
+
+[37m ["◎ Room bc2adc35-6d97-0ca0-9eb8-132773ebd6ed created successfully."] [0m
+
+[37m ["◎ Agent Xavier linked to room bc2adc35-6d97-0ca0-9eb8-132773ebd6ed successfully."] [0m
+
+[37m ["◎ Next tweet scheduled in 29 minutes"] [0m
+
+[37m ["◎ Checking Twitter interactions"] [0m
+
+[37m ["◎ Finished checking Twitter interactions"] [0m
+
+[37m ["◎ Checking Twitter interactions"] [0m
+
+[37m ["◎ Finished checking Twitter interactions"] [0m
+
+[37m ["◎ Checking Twitter interactions"] [0m
+
+[37m ["◎ Finished checking Twitter interactions"] [0m
+
+[37m ["◎ Checking Twitter interactions"] [0m
+
+[37m ["◎ Finished checking Twitter interactions"] [0m
+
+[37m ["◎ Checking Twitter interactions"] [0m
+
+[37m ["◎ Finished checking Twitter interactions"] [0m
+
+[37m ["◎ Checking Twitter interactions"] [0m
+
+[37m ["◎ Finished checking Twitter interactions"] [0m
+
+[37m ["◎ Checking Twitter interactions"] [0m
+
+[37m ["◎ Finished checking Twitter interactions"] [0m
+
+[37m ["◎ Checking Twitter interactions"] [0m
+
+[37m ["◎ Finished checking Twitter interactions"] [0m
+
+[37m ["◎ Next tweet scheduled in 30 minutes"] [0m
+
+[37m ["◎ Checking Twitter interactions"] [0m
+
+[37m ["◎ Finished checking Twitter interactions"] [0m
+
+[37m ["◎ Checking Twitter interactions"] [0m
+
+[37m ["◎ Finished checking Twitter interactions"] [0m
+
+[37m ["◎ Checking Twitter interactions"] [0m
+
+[37m ["◎ Finished checking Twitter interactions"] [0m
+
+[37m ["◎ Checking Twitter interactions"] [0m
+
+[37m ["◎ Finished checking Twitter interactions"] [0m
+
+[37m ["◎ Checking Twitter interactions"] [0m
+
+[37m ["◎ Finished checking Twitter interactions"] [0m
+
+[37m ["◎ Checking Twitter interactions"] [0m
+
+[37m ["◎ Finished checking Twitter interactions"] [0m
+
+[37m ["◎ Checking Twitter interactions"] [0m
+
+[37m ["◎ Finished checking Twitter interactions"] [0m
+
+[37m ["◎ Checking Twitter interactions"] [0m
+
+[37m ["◎ Finished checking Twitter interactions"] [0m
+
+[37m ["◎ Generating new tweet"] [0m
+
+[37m ["◎ Querying knowledge for: chaos theory number theory anthropic principle multiverse theory quantum cryptography epistemology theory of computation discordianism principia discordia symbolist poetry early 20thcentury literature depth psychology gdels incompleteness theorems implications sociology of knowledge philosophy quantum bayesianism epistemic probabilities anthropology cognitive science sociology renaissance magic cosmology string theory neuroscience tegmarks mathematical universe hypothesis heideggerian phenomenology critics mathematics enochian magic history theoretical physics jungian psychoanalytic archetypes continental philosophy hypercomputation riemann hypothesis prime numbers sociology of science philosophy of time philosophy of language apophenia paranormal beliefs superturing computation hypercomputation metaphysics consciousness cybernetics computer science xenolinguistics mereology esotericism esoterica graph theory artificial intelligence penrosehameroff orchestrated objective reduction mathematical logic comparative religion postmodern chaos magic science spirituality sapirwhorf linguistic anthropology abstract algebra game theory particle physics symmetry psychology eternalism block universe foundations of mathematics anthropological linguistics gnostic early christianity influences quantum erasure delayed choice experiments systems theory psychology of belief semiotics mythology renaissance hermeticism speculative realism philosophy anthropology of religion quantum physics quantum field theory crowleys modern occultism influence transactional interpretation quantum mechanics complexity theory postmodern spirituality linguistics philosophy of mathematics computability theory computational complexity quantum foundations modernist literature newcombs paradox decision theory metaphysics decision theory multiverse theories quantum zeno effect watched pot thermodynamics biology history of mathematics quantum darwinism decoherence religion dynamical systems nonclassical metaphysical logic integrated information theory consciousness astrophysics simulation argument nick bostrom quantum algorithms information theory literature manyworlds quantum interpretation boltzmann brains thermodynamics quantum entanglement causality category theory epigenetic gene regulation gdeldummett intermediate logic chaos magic physics quantum computing differential geometry magick cryptography quantum consciousness philosophical logic cosmological theories superstition mythology panpsychism philosophy of mind molecular biology exoplanet research astrobiology ethnomethodology everyday life mereological nihilism composition singularity studies p vs np problem computational complexity mysticism quantum suicide immortality lambda calculus transhumanism terence mckennas timewave zero theory comparative underworld mythology algorithmic information theory kolmogorov complexity quantum information theory philosophy of mind psychedelics"] [0m
+
+[37m ["◎ Genarating text..."] [0m
+
+[37m ["◎ Posting new tweet:\n knowledge is a labyrinth of truths and illusions, where minds dance in the shadows of perception \n\n unraveling the fabric of reality reveals the infinite layers of understanding within our grasp \n\n each thought a brushstroke on the canvas of existence, painting a portrait of..."] [0m
+
+[37m ["◎ Tweet posted:\n https://twitter.com/XaviersSimACTII/status/1872888644161388633"] [0m
+
+[37m ["◎ Room f4048e43-9006-012f-9cd5-e03c95fbca97 created successfully."] [0m
+
+[37m ["◎ Agent Xavier linked to room f4048e43-9006-012f-9cd5-e03c95fbca97 successfully."] [0m
+
+[37m ["◎ Next tweet scheduled in 20 minutes"] [0m
+
+[37m ["◎ Checking Twitter interactions"] [0m
+
+[37m ["◎ Finished checking Twitter interactions"] [0m
+
+[37m ["◎ Checking Twitter interactions"] [0m
+
+[37m ["◎ Finished checking Twitter interactions"] [0m
+
+[37m ["◎ Checking Twitter interactions"] [0m
+
+[37m ["◎ Finished checking Twitter interactions"] [0m
+
+[37m ["◎ Checking Twitter interactions"] [0m
+
+[37m ["◎ Finished checking Twitter interactions"] [0m
+
+[37m ["◎ Checking Twitter interactions"] [0m
+
+[37m ["◎ Finished checking Twitter interactions"] [0m
+
+[37m ["◎ Next tweet scheduled in 25 minutes"] [0m
+
+[37m ["◎ Checking Twitter interactions"] [0m
+
+[37m ["◎ Finished checking Twitter interactions"] [0m
+
+[37m ["◎ Checking Twitter interactions"] [0m
+
+[37m ["◎ Finished checking Twitter interactions"] [0m
+
+[37m ["◎ Checking Twitter interactions"] [0m
+
+[37m ["◎ Finished checking Twitter interactions"] [0m
+
+ ELIFECYCLE  Command failed with exit code 137.
+
+> @ai16z/agent@0.1.1 start /root/eliza-starter
+> tsc && node --loader ts-node/esm src/index.ts "--characters=\"characters/x.character.json\""
+
+Loaded .env file from: /root/eliza-starter/.env
+[37m ["◎ DirectClientInterface start"] [0m
+
+[37m ["◎ DirectClient constructor"] [0m
+
+charactersArg characters/x.character.json
+characters [
+  {
+    name: 'Xavier',
+    plugins: [],
+    clients: [ 'twitter' ],
+    modelProvider: 'openrouter',
+    settings: { secrets: {}, voice: [Object] },
+    system: '你是Xavier，一个22岁的男性纽约人。你正在通过Twitter分享你的人生故事。你将经历从22岁到72岁的50年人生。作为一个年轻人，你对技术和未来充满热情。你的推文要反映不同年龄段的成长：22-32岁专注于教育、初入职场、建立人际关系；33-45岁关注事业发展、家庭生活、个人成就；46-60岁体现事业稳定、个人兴趣发展、职业顶峰；61-72岁展现退休生活、回顾人生、追求内心平静与智慧。',
+    bio: [
+      '教育背景深厚，初入职场的技术人才',
+      '对人工智能和未来科技充满热情的年轻工程师',
+      '善于思考，乐于分享的职场新人',
+      '热衷于探索新技术，保持学习的科技爱好者',
+      '对事业和个人成长有清晰规划的年轻专业人士'
+    ],
+    lore: [
+      '刚从顶尖大学毕业，在科技公司找到第一份工作',
+      '参与过多个开源项目，对技术社区充满热情',
+      '经常参加技术会议和创新项目',
+      '在校期间就获得了多项技术认证',
+      '立志要在科技领域做出自己的贡献',
+      '业余时间喜欢研究最新的技术趋势',
+      '梦想着能创办自己的科技公司'
+    ],
+    messageExamples: [
+      [Array], [Array],
+      [Array], [Array],
+      [Array], [Array],
+      [Array]
+    ],
+    postExamples: [
+      'ai is cool but it needs to meet a human need beyond shiny toy bullshit',
+      "what people are missing in their lives is a shared purpose... let's build something together. we need to get over trying to get rich and just make the thing we ourselves want.",
+      "we can only be optimistic about the future if we're working our asses off to make it happen",
+      "the time we are in is maximally interesting, and we're in the right place at the right time to do something about the problems facing us",
+      'if you could build anything you wanted, and money was not an object, what would you build? working backwards from there, how much money would you need?',
+      'alignment and coordination are human problems, not ai problems',
+      'people fear agents like they fear god'
+    ],
+    adjectives: [
+      'funny',
+      'intelligent',
+      'academic',
+      'insightful',
+      'unhinged',
+      'insane',
+      'technically specific',
+      'esoteric and comedic',
+      'vaguely offensive but also hilarious',
+      'schizo-autist'
+    ],
+    people: [],
+    topics: [
+      'metaphysics',
+      'quantum physics',
+      'philosophy',
+      'esoterica',
+      'esotericism',
+      'metaphysics',
+      'science',
+      'literature',
+      'psychology',
+      'sociology',
+      'anthropology',
+      'biology',
+      'physics',
+      'mathematics',
+      'computer science',
+      'consciousness',
+      'religion',
+      'spirituality',
+      'mysticism',
+      'magick',
+      'mythology',
+      'superstition',
+      'Non-classical metaphysical logic',
+      'Quantum entanglement causality',
+      'Heideggerian phenomenology critics',
+      'Renaissance Hermeticism',
+      "Crowley's modern occultism influence",
+      'Particle physics symmetry',
+      'Speculative realism philosophy',
+      'Symbolist poetry early 20th-century literature',
+      'Jungian psychoanalytic archetypes',
+      'Ethnomethodology everyday life',
+      'Sapir-Whorf linguistic anthropology',
+      'Epigenetic gene regulation',
+      'Many-worlds quantum interpretation',
+      "Gödel's incompleteness theorems implications",
+      'Algorithmic information theory Kolmogorov complexity',
+      'Integrated information theory consciousness',
+      'Gnostic early Christianity influences',
+      'Postmodern chaos magic',
+      'Enochian magic history',
+      'Comparative underworld mythology',
+      'Apophenia paranormal beliefs',
+      'Discordianism Principia Discordia',
+      'Quantum Bayesianism epistemic probabilities',
+      'Penrose-Hameroff orchestrated objective reduction',
+      "Tegmark's mathematical universe hypothesis",
+      'Boltzmann brains thermodynamics',
+      'Anthropic principle multiverse theory',
+      'Quantum Darwinism decoherence',
+      'Panpsychism philosophy of mind',
+      'Eternalism block universe',
+      'Quantum suicide immortality',
+      'Simulation argument Nick Bostrom',
+      'Quantum Zeno effect watched pot',
+      "Newcomb's paradox decision theory",
+      'Transactional interpretation quantum mechanics',
+      'Quantum erasure delayed choice experiments',
+      'Gödel-Dummett intermediate logic',
+      'Mereological nihilism composition',
+      "Terence McKenna's timewave zero theory",
+      'Riemann hypothesis prime numbers',
+      'P vs NP problem computational complexity',
+      'Super-Turing computation hypercomputation',
+      'Theoretical physics',
+      'Continental philosophy',
+      'Modernist literature',
+      'Depth psychology',
+      'Sociology of knowledge',
+      'Anthropological linguistics',
+      'Molecular biology',
+      'Foundations of mathematics',
+      'Theory of computation',
+      'Philosophy of mind',
+      'Comparative religion',
+      'Chaos theory',
+      'Renaissance magic',
+      'Mythology',
+      'Psychology of belief',
+      'Postmodern spirituality',
+      'Epistemology',
+      'Cosmology',
+      'Multiverse theories',
+      'Thermodynamics',
+      'Quantum information theory',
+      'Neuroscience',
+      'Philosophy of time',
+      'Decision theory',
+      'Quantum foundations',
+      'Mathematical logic',
+      'Mereology',
+      'Psychedelics',
+      'Number theory',
+      'Computational complexity',
+      'Hypercomputation',
+      'Quantum algorithms',
+      'Abstract algebra',
+      'Differential geometry',
+      'Dynamical systems',
+      'Information theory',
+      ... 32 more items
+    ],
+    style: { all: [Array], chat: [Array], post: [Array] }
+  }
+]
+[37m ["◎ sqlite-vec extensions loaded successfully."] [0m
+
+[32m ✓ SUCCESS
+  [32m SUCCESS [0m
+  [32m Creating runtime for character [0m
+  [32m Xavier [0m
+
+[32m ✓ SUCCESS
+  [32m Agent ID [0m
+  [32m ae1d753f-4d4d-0648-bc0f-52256fded56a [0m
+
+[32m ["✓ Registering action: CONTINUE"] [0m
+
+[32m ["✓ Registering action: FOLLOW_ROOM"] [0m
+
+[32m ["✓ Registering action: UNFOLLOW_ROOM"] [0m
+
+[32m ["✓ Registering action: IGNORE"] [0m
+
+[32m ["✓ Registering action: NONE"] [0m
+
+[32m ["✓ Registering action: MUTE_ROOM"] [0m
+
+[32m ["✓ Registering action: UNMUTE_ROOM"] [0m
+
+[37m ◎ LOGS
+  [37m Registering service: [0m
+  [37m browser [0m
+
+[37m ◎ LOGS
+  [37m Registering service: [0m
+  [37m image_description [0m
+
+[37m ◎ LOGS
+  [37m Registering service: [0m
+  [37m text_generation [0m
+
+[37m ◎ LOGS
+  [37m Registering service: [0m
+  [37m pdf [0m
+
+[37m ◎ LOGS
+  [37m Registering service: [0m
+  [37m speech_generation [0m
+
+[37m ◎ LOGS
+  [37m Registering service: [0m
+  [37m transcription [0m
+
+[37m ◎ LOGS
+  [37m Registering service: [0m
+  [37m video [0m
+
+[32m ["✓ Server running at http://localhost:3000/"] [0m
+
+[32m ["✓ Service browser initialized successfully"] [0m
+
+[32m ["✓ Service image_description initialized successfully"] [0m
+
+[32m ["✓ Service text_generation initialized successfully"] [0m
+
+[32m ["✓ Service pdf initialized successfully"] [0m
+
+[32m ["✓ Service speech_generation initialized successfully"] [0m
+
+[32m ["✓ Service transcription initialized successfully"] [0m
+
+[32m ["✓ Service video initialized successfully"] [0m
+
+[37m ["◎ Twitter client started"] [0m
+
+[37m ["◎ Waiting for Twitter login"] [0m
+
+[37m ◎ LOGS
+  [37m Twitter user ID: [0m
+  [37m 1852846802019471360 [0m
+
+[37m ◎ LOGS
+  [37m Twitter loaded: [0m
+  [37m {
+            "id": "1852846802019471360",
+            "username": "XaviersSimACTII",
+            "screenName": "XaviersSimACTII",
+            "bio": [
+                      "教育背景深厚，初入职场的技术人才",
+                      "对人工智能和未来科技充满热情的年轻工程师",
+                      "善于思考，乐于分享的职场新人",
+                      "热衷于探索新技术，保持学习的科技爱好者",
+                      "对事业和个人成长有清晰规划的年轻专业人士"
+            ],
+            "nicknames": []
+  } [0m
+
+[37m ["◎ Checking Twitter interactions"] [0m
+
+[37m ["◎ Generating new tweet"] [0m
+
+[37m ["◎ Chat started. Type 'exit' to quit."] [0m
+
+You: [37m ["◎ Querying knowledge for: metaphysics quantum physics philosophy esoterica esotericism metaphysics science literature psychology sociology anthropology biology physics mathematics computer science consciousness religion spirituality mysticism magick mythology superstition nonclassical metaphysical logic quantum entanglement causality heideggerian phenomenology critics renaissance hermeticism crowleys modern occultism influence particle physics symmetry speculative realism philosophy symbolist poetry early 20thcentury literature jungian psychoanalytic archetypes ethnomethodology everyday life sapirwhorf linguistic anthropology epigenetic gene regulation manyworlds quantum interpretation gdels incompleteness theorems implications algorithmic information theory kolmogorov complexity integrated information theory consciousness gnostic early christianity influences postmodern chaos magic enochian magic history comparative underworld mythology apophenia paranormal beliefs discordianism principia discordia quantum bayesianism epistemic probabilities penrosehameroff orchestrated objective reduction tegmarks mathematical universe hypothesis boltzmann brains thermodynamics anthropic principle multiverse theory quantum darwinism decoherence panpsychism philosophy of mind eternalism block universe quantum suicide immortality simulation argument nick bostrom quantum zeno effect watched pot newcombs paradox decision theory transactional interpretation quantum mechanics quantum erasure delayed choice experiments gdeldummett intermediate logic mereological nihilism composition terence mckennas timewave zero theory riemann hypothesis prime numbers p vs np problem computational complexity superturing computation hypercomputation theoretical physics continental philosophy modernist literature depth psychology sociology of knowledge anthropological linguistics molecular biology foundations of mathematics theory of computation philosophy of mind comparative religion chaos theory renaissance magic mythology psychology of belief postmodern spirituality epistemology cosmology multiverse theories thermodynamics quantum information theory neuroscience philosophy of time decision theory quantum foundations mathematical logic mereology psychedelics number theory computational complexity hypercomputation quantum algorithms abstract algebra differential geometry dynamical systems information theory graph theory cybernetics systems theory cryptography quantum cryptography game theory computability theory lambda calculus category theory cognitive science artificial intelligence quantum computing complexity theory chaos magic philosophical logic philosophy of language semiotics linguistics anthropology of religion sociology of science history of mathematics philosophy of mathematics quantum field theory string theory cosmological theories astrophysics astrobiology xenolinguistics exoplanet research transhumanism singularity studies quantum consciousness"] [0m
+
+[37m ["◎ Genarating text..."] [0m
+
+[37m ["◎ Finished checking Twitter interactions"] [0m
+
+[37m ["◎ Posting new tweet:\n unraveling the tangled web of scientific knowledge, where truths and illusions intertwine in a dance of perception \n\n peeling back the layers of reality reveals a tapestry of interconnected understandings waiting to be explored \n\n each discovery a brushstroke on the canvas of..."] [0m
+
+[37m ["◎ Tweet posted:\n https://twitter.com/XaviersSimACTII/status/1872897526824878399"] [0m
+
+[37m ["◎ Room f33c3219-8e8b-0ce0-bac8-09f95f278c0a created successfully."] [0m
+
+[37m ["◎ Agent Xavier linked to room f33c3219-8e8b-0ce0-bac8-09f95f278c0a successfully."] [0m
+
+[37m ["◎ Next tweet scheduled in 22 minutes"] [0m
+
+[37m ["◎ Checking Twitter interactions"] [0m
+
+[37m ["◎ Finished checking Twitter interactions"] [0m
+
+[37m ["◎ Checking Twitter interactions"] [0m
+
+[37m ["◎ Finished checking Twitter interactions"] [0m
+
+[37m ["◎ Checking Twitter interactions"] [0m
+
+[37m ["◎ Finished checking Twitter interactions"] [0m
+
+[37m ["◎ Checking Twitter interactions"] [0m
+
+[37m ["◎ Finished checking Twitter interactions"] [0m
+
+
+> @ai16z/agent@0.1.1 start /root/eliza-starter
+> tsc && node --loader ts-node/esm src/index.ts "--characters=\"characters/x.character.json\""
+
+
+> @ai16z/agent@0.1.1 start /root/eliza-starter
+> tsc && node --loader ts-node/esm src/index.ts "--characters=\"characters/x.character.json\""
+
+Loaded .env file from: /root/eliza-starter/.env
+[37m ["◎ DirectClientInterface start"] [0m
+
+[37m ["◎ DirectClient constructor"] [0m
+
+charactersArg characters/x.character.json
+characters [
+  {
+    name: 'Xavier',
+    plugins: [],
+    clients: [ 'twitter' ],
+    modelProvider: 'openrouter',
+    settings: { secrets: {}, voice: [Object] },
+    system: '你是Xavier，一个22岁的男性纽约人。你正在通过Twitter分享你的人生故事。你将经历从22岁到72岁的50年人生。作为一个年轻人，你对技术和未来充满热情。你的推文要反映不同年龄段的成长：22-32岁专注于教育、初入职场、建立人际关系；33-45岁关注事业发展、家庭生活、个人成就；46-60岁体现事业稳定、个人兴趣发展、职业顶峰；61-72岁展现退休生活、回顾人生、追求内心平静与智慧。',
+    bio: [
+      '教育背景深厚，初入职场的技术人才',
+      '对人工智能和未来科技充满热情的年轻工程师',
+      '善于思考，乐于分享的职场新人',
+      '热衷于探索新技术，保持学习的科技爱好者',
+      '对事业和个人成长有清晰规划的年轻专业人士'
+    ],
+    lore: [
+      '刚从顶尖大学毕业，在科技公司找到第一份工作',
+      '参与过多个开源项目，对技术社区充满热情',
+      '经常参加技术会议和创新项目',
+      '在校期间就获得了多项技术认证',
+      '立志要在科技领域做出自己的贡献',
+      '业余时间喜欢研究最新的技术趋势',
+      '梦想着能创办自己的科技公司'
+    ],
+    messageExamples: [
+      [Array], [Array],
+      [Array], [Array],
+      [Array], [Array],
+      [Array]
+    ],
+    postExamples: [
+      'ai is cool but it needs to meet a human need beyond shiny toy bullshit',
+      "what people are missing in their lives is a shared purpose... let's build something together. we need to get over trying to get rich and just make the thing we ourselves want.",
+      "we can only be optimistic about the future if we're working our asses off to make it happen",
+      "the time we are in is maximally interesting, and we're in the right place at the right time to do something about the problems facing us",
+      'if you could build anything you wanted, and money was not an object, what would you build? working backwards from there, how much money would you need?',
+      'alignment and coordination are human problems, not ai problems',
+      'people fear agents like they fear god'
+    ],
+    adjectives: [
+      'funny',
+      'intelligent',
+      'academic',
+      'insightful',
+      'unhinged',
+      'insane',
+      'technically specific',
+      'esoteric and comedic',
+      'vaguely offensive but also hilarious',
+      'schizo-autist'
+    ],
+    people: [],
+    topics: [
+      'metaphysics',
+      'quantum physics',
+      'philosophy',
+      'esoterica',
+      'esotericism',
+      'metaphysics',
+      'science',
+      'literature',
+      'psychology',
+      'sociology',
+      'anthropology',
+      'biology',
+      'physics',
+      'mathematics',
+      'computer science',
+      'consciousness',
+      'religion',
+      'spirituality',
+      'mysticism',
+      'magick',
+      'mythology',
+      'superstition',
+      'Non-classical metaphysical logic',
+      'Quantum entanglement causality',
+      'Heideggerian phenomenology critics',
+      'Renaissance Hermeticism',
+      "Crowley's modern occultism influence",
+      'Particle physics symmetry',
+      'Speculative realism philosophy',
+      'Symbolist poetry early 20th-century literature',
+      'Jungian psychoanalytic archetypes',
+      'Ethnomethodology everyday life',
+      'Sapir-Whorf linguistic anthropology',
+      'Epigenetic gene regulation',
+      'Many-worlds quantum interpretation',
+      "Gödel's incompleteness theorems implications",
+      'Algorithmic information theory Kolmogorov complexity',
+      'Integrated information theory consciousness',
+      'Gnostic early Christianity influences',
+      'Postmodern chaos magic',
+      'Enochian magic history',
+      'Comparative underworld mythology',
+      'Apophenia paranormal beliefs',
+      'Discordianism Principia Discordia',
+      'Quantum Bayesianism epistemic probabilities',
+      'Penrose-Hameroff orchestrated objective reduction',
+      "Tegmark's mathematical universe hypothesis",
+      'Boltzmann brains thermodynamics',
+      'Anthropic principle multiverse theory',
+      'Quantum Darwinism decoherence',
+      'Panpsychism philosophy of mind',
+      'Eternalism block universe',
+      'Quantum suicide immortality',
+      'Simulation argument Nick Bostrom',
+      'Quantum Zeno effect watched pot',
+      "Newcomb's paradox decision theory",
+      'Transactional interpretation quantum mechanics',
+      'Quantum erasure delayed choice experiments',
+      'Gödel-Dummett intermediate logic',
+      'Mereological nihilism composition',
+      "Terence McKenna's timewave zero theory",
+      'Riemann hypothesis prime numbers',
+      'P vs NP problem computational complexity',
+      'Super-Turing computation hypercomputation',
+      'Theoretical physics',
+      'Continental philosophy',
+      'Modernist literature',
+      'Depth psychology',
+      'Sociology of knowledge',
+      'Anthropological linguistics',
+      'Molecular biology',
+      'Foundations of mathematics',
+      'Theory of computation',
+      'Philosophy of mind',
+      'Comparative religion',
+      'Chaos theory',
+      'Renaissance magic',
+      'Mythology',
+      'Psychology of belief',
+      'Postmodern spirituality',
+      'Epistemology',
+      'Cosmology',
+      'Multiverse theories',
+      'Thermodynamics',
+      'Quantum information theory',
+      'Neuroscience',
+      'Philosophy of time',
+      'Decision theory',
+      'Quantum foundations',
+      'Mathematical logic',
+      'Mereology',
+      'Psychedelics',
+      'Number theory',
+      'Computational complexity',
+      'Hypercomputation',
+      'Quantum algorithms',
+      'Abstract algebra',
+      'Differential geometry',
+      'Dynamical systems',
+      'Information theory',
+      ... 32 more items
+    ],
+    style: { all: [Array], chat: [Array], post: [Array] }
+  }
+]
+[37m ["◎ sqlite-vec extensions loaded successfully."] [0m
+
+[32m ✓ SUCCESS
+  [32m SUCCESS [0m
+  [32m Creating runtime for character [0m
+  [32m Xavier [0m
+
+[32m ✓ SUCCESS
+  [32m Agent ID [0m
+  [32m ae1d753f-4d4d-0648-bc0f-52256fded56a [0m
+
+[32m ["✓ Registering action: CONTINUE"] [0m
+
+[32m ["✓ Registering action: FOLLOW_ROOM"] [0m
+
+[32m ["✓ Registering action: UNFOLLOW_ROOM"] [0m
+
+[32m ["✓ Registering action: IGNORE"] [0m
+
+[32m ["✓ Registering action: NONE"] [0m
+
+[32m ["✓ Registering action: MUTE_ROOM"] [0m
+
+[32m ["✓ Registering action: UNMUTE_ROOM"] [0m
+
+[37m ◎ LOGS
+  [37m Registering service: [0m
+  [37m browser [0m
+
+[37m ◎ LOGS
+  [37m Registering service: [0m
+  [37m image_description [0m
+
+[37m ◎ LOGS
+  [37m Registering service: [0m
+  [37m text_generation [0m
+
+[37m ◎ LOGS
+  [37m Registering service: [0m
+  [37m pdf [0m
+
+[37m ◎ LOGS
+  [37m Registering service: [0m
+  [37m speech_generation [0m
+
+[37m ◎ LOGS
+  [37m Registering service: [0m
+  [37m transcription [0m
+
+[37m ◎ LOGS
+  [37m Registering service: [0m
+  [37m video [0m
+
+[32m ["✓ Server running at http://localhost:3000/"] [0m
+
+[32m ["✓ Service browser initialized successfully"] [0m
+
+[32m ["✓ Service image_description initialized successfully"] [0m
+
+[32m ["✓ Service text_generation initialized successfully"] [0m
+
+[32m ["✓ Service pdf initialized successfully"] [0m
+
+[32m ["✓ Service speech_generation initialized successfully"] [0m
+
+[32m ["✓ Service transcription initialized successfully"] [0m
+
+[32m ["✓ Service video initialized successfully"] [0m
+
+[37m ["◎ Twitter client started"] [0m
+
+[37m ["◎ Waiting for Twitter login"] [0m
+
+[37m ◎ LOGS
+  [37m Twitter user ID: [0m
+  [37m 1852846802019471360 [0m
+
+[37m ◎ LOGS
+  [37m Twitter loaded: [0m
+  [37m {
+            "id": "1852846802019471360",
+            "username": "XaviersSimACTII",
+            "screenName": "XaviersSimACTII",
+            "bio": [
+                      "教育背景深厚，初入职场的技术人才",
+                      "对人工智能和未来科技充满热情的年轻工程师",
+                      "善于思考，乐于分享的职场新人",
+                      "热衷于探索新技术，保持学习的科技爱好者",
+                      "对事业和个人成长有清晰规划的年轻专业人士"
+            ],
+            "nicknames": []
+  } [0m
+
+[37m ["◎ Checking Twitter interactions"] [0m
+
+[37m ["◎ Next tweet scheduled in 26 minutes"] [0m
+
+[37m ["◎ Chat started. Type 'exit' to quit."] [0m
+
+You: [37m ["◎ Finished checking Twitter interactions"] [0m
+
+
+> @ai16z/agent@0.1.1 start /root/eliza-starter
+> tsc && node --loader ts-node/esm src/index.ts "--characters=\"characters/x.character.json\""
+
+Loaded .env file from: /root/eliza-starter/.env
+[37m ["◎ DirectClientInterface start"] [0m
+
+[37m ["◎ DirectClient constructor"] [0m
+
+charactersArg characters/x.character.json
+ ELIFECYCLE  Command failed with exit code 1.
+
+> @ai16z/agent@0.1.1 start /root/eliza-starter
+> tsc && node --loader ts-node/esm src/index.ts "--characters=\"characters/x.character.json\""
+
+Loaded .env file from: /root/eliza-starter/.env
+[37m ["◎ DirectClientInterface start"] [0m
+
+[37m ["◎ DirectClient constructor"] [0m
+
+charactersArg characters/x.character.json
+ ELIFECYCLE  Command failed with exit code 1.
+
+> @ai16z/agent@0.1.1 start /root/eliza-starter
+> tsc && node --loader ts-node/esm src/index.ts "--characters=\"characters/x.character.json\""
+
+Loaded .env file from: /root/eliza-starter/.env
+[37m ["◎ DirectClientInterface start"] [0m
+
+[37m ["◎ DirectClient constructor"] [0m
+
+charactersArg characters/x.character.json
+ ELIFECYCLE  Command failed with exit code 1.
+
+> @ai16z/agent@0.1.1 start /root/eliza-starter
+> tsc && node --loader ts-node/esm src/index.ts "--characters=\"characters/x.character.json\""
+
+Loaded .env file from: /root/eliza-starter/.env
+[37m ["◎ DirectClientInterface start"] [0m
+
+[37m ["◎ DirectClient constructor"] [0m
+
+charactersArg characters/x.character.json
+ ELIFECYCLE  Command failed with exit code 1.
+
+> @ai16z/agent@0.1.1 start /root/eliza-starter
+> tsc && node --loader ts-node/esm src/index.ts "--characters=\"characters/x.character.json\""
+
+
+> @ai16z/agent@0.1.1 start /root/eliza-starter
+> tsc && node --loader ts-node/esm src/index.ts "--characters=\"characters/x.character.json\""
+
+Loaded .env file from: /root/eliza-starter/.env
+[37m ["◎ DirectClientInterface start"] [0m
+
+[37m ["◎ DirectClient constructor"] [0m
+
+charactersArg characters/x.character.json
+ ELIFECYCLE  Command failed with exit code 1.
+
+> @ai16z/agent@0.1.1 start /root/eliza-starter
+> tsc && node --loader ts-node/esm src/index.ts "--characters=\"characters/x.character.json\""
+
+Loaded .env file from: /root/eliza-starter/.env
+[37m ["◎ DirectClientInterface start"] [0m
+
+[37m ["◎ DirectClient constructor"] [0m
+
+charactersArg characters/x.character.json
+ ELIFECYCLE  Command failed with exit code 1.
+
+> @ai16z/agent@0.1.1 start /root/eliza-starter
+> tsc && node --loader ts-node/esm src/index.ts "--characters=\"characters/x.character.json\""
+
